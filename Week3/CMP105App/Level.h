@@ -23,7 +23,7 @@ private:
 	sf::Vector2u window_Size;
 	sf::Vector2f circle_Pos;
 	float circle_Speed;
-	bool circle_Right;
+	float circle_Right;
 
 	sf::RectangleShape rect;
 	sf::Vector2f rect_Pos;
