@@ -26,10 +26,16 @@ private:
 	bool circle_Right;
 
 	sf::RectangleShape rect;
-	float rect_Speed;
 	sf::Vector2f rect_Pos;
 	sf::Vector2f rect_Delta;
-	sf::Vector2f rect_Speed;
+	sf::Vector2f rect_Direction;
+	float rect_Speed;
+
+	sf::RectangleShape rect2;
+	sf::Vector2f rect2_Pos;
+	sf::Vector2f rect2_Delta;
+	sf::Vector2f rect2_Direction;
+	float rect2_Speed;
 
 	// Default variables for level class.
 	sf::RenderWindow* window;
